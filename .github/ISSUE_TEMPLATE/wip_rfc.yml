@@ -1,8 +1,7 @@
 name: WCRP-ESMO Infrastructure Panel - ESGF RFC
 description: Request for comment from ESGF on WIP proposal
-title: Request for comment from ESGF on WIP proposal
-labels:
-  - WIP-RFC
+title: "Request for comment from ESGF on WIP proposal"
+labels: ["WIP-RFC"]
 body:
   - type: input
     id: summary
