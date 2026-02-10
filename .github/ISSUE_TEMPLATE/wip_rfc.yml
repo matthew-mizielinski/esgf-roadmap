@@ -5,10 +5,10 @@ labels:
   - WIP-RFC
 body:
   - type: input
+    id: summary
     attributes:
-      label: Summary
-      id: summary
-      description: >
+      label: Summary  
+      description: |
         *Brief* high-level summary of the integration/implementation
         request (one paragraph)..
       validations:
@@ -17,9 +17,8 @@ body:
     attributes:
       label: Infrastructure components
       id: infrastructure
-      description: >
+      description: |
         Identify the affected components of CMIP infrastructure. 
-
 
         This should be concise and specific (e.g., names github repositories of relevant software packages). 
 
@@ -29,13 +28,12 @@ body:
       validations:
         required: true
   - type: input
+    id: priority-timeline
     attributes:
       label: Prioritization and timeline
-      id: priority-timeline
-      description: >
+      description: |
         *Briefly* indicate the priority of the integration request, and the
         timeline on which it is requested.
-
 
         Suggested guidelines for prioritization:
 
@@ -45,15 +43,14 @@ body:
 
         * Low: would be nice to have
 
-
         Rationale for prioritization and timeline can be explained below under [Motivation](#motivation).
       validations:
         required: true
   - type: input
+    id: motivation
     attributes:
       label: Motivation
-      id: motivation
-      description: >
+      description: |
         Explain why this request is important. This doesn't need to be
         brief. It can address:
 
@@ -67,9 +64,9 @@ body:
       validations:
         required: true
   - type: input
+    id: tech-details
     attributes:
       label: Technical details
-      id: tech-details
       description: >
         This section is for more detailed description of technical aspects
         of the integration request, such as:
@@ -84,9 +81,9 @@ body:
       validations:
         required: true
   - type: input
+    id: risks
     attributes:
       label: Risks
-      id: risks
       description: >
         Explain any known risks / drawbacks of carrying out the proposal.
 
