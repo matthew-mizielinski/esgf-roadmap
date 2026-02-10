@@ -37,11 +37,11 @@ body:
         Suggested guidelines for prioritization:
 
         * High: extremely important, perhaps critical
-
+        
         * Medium: important and beneficial, but can live without it
-
+        
         * Low: would be nice to have
-
+        
         Rationale for prioritization and timeline can be explained below under *Motivation*.
     validations:
       required: true
@@ -54,11 +54,11 @@ body:
         brief. It can address:
 
         * What use cases does it support? Who are the affected users?
-
+        
         * How does it support the ecosystem of WCRP/ESMO projects?
-
-        * How does it support provision of FAIR data? 
-
+        
+        * How does it support provision of FAIR data?
+        
         * What are the consequences of not doing this?
     validations:
       required: true
@@ -71,11 +71,11 @@ body:
         of the integration request, such as:
 
         * Pathway to implementation (road map)
-
+        
         * Dependencies on other infrastructure components
-
+        
         * Detailed information that will be passed between infrastructure components
-
+        
         * Potential obstacles to implementation
     validations:
       required: true
