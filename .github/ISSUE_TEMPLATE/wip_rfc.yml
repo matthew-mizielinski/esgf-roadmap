@@ -23,7 +23,7 @@ body:
 
         If affected components are not initially known, these details should be added during the review/discussion phase. 
 
-        Notes on implementation and further technical details are given below under [Technical details](#technical-details).
+        Notes on implementation and further technical details are given below under *Technical details*.
     validations:
       required: true
   - type: input
@@ -42,7 +42,7 @@ body:
 
         * Low: would be nice to have
 
-        Rationale for prioritization and timeline can be explained below under [Motivation](#motivation).
+        Rationale for prioritization and timeline can be explained below under *Motivation*.
     validations:
       required: true
   - type: input
