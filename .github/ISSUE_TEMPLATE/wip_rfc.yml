@@ -12,7 +12,7 @@ body:
         request (one paragraph)..
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: infrastructure
     attributes:
       label: Infrastructure components
@@ -26,7 +26,7 @@ body:
         Notes on implementation and further technical details are given below under *Technical details*.
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: priority-timeline
     attributes:
       label: Prioritization and timeline
@@ -45,7 +45,7 @@ body:
         Rationale for prioritization and timeline can be explained below under *Motivation*.
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: motivation
     attributes:
       label: Motivation
@@ -62,7 +62,7 @@ body:
         * What are the consequences of not doing this?
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: tech-details
     attributes:
       label: Technical details
@@ -79,7 +79,7 @@ body:
         * Potential obstacles to implementation
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: risks
     attributes:
       label: Risks
